@@ -9,5 +9,3 @@ function start() {
         }, 1000)
     }, 300 )
   }
-
-alert("i work");
