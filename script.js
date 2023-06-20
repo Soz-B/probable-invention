@@ -1,6 +1,7 @@
-document.getElementById("main").addEventListener("load", start);
+document.addEventListener("click", start);
 
 function start() {
+    document.removeEventListener("click", start);
     document.getElementById("title").className = "active";
     setTimeout(function(){
         document.getElementById("title").className = "inactive";
