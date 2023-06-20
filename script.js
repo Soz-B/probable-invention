@@ -1,4 +1,4 @@
-window.addEventListener("load", start);
+document.getElementById("main").addEventListener("load", start);
 
 function start() {
     document.getElementById("title").className = "active";
